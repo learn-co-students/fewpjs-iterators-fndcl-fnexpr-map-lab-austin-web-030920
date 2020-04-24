@@ -16,10 +16,7 @@ const titleCased = () => {
   return titleCasedTuts;
 }
 
-function titleCase(str) {
-  str = str.split(' ');
-  for (var i = 0; i < str.length; i++) {
-    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
-  }
-  return str.join(' ');
+function titleCase(string) {
+  let sentence = string.split(" ");
+  sentence.map(word => )
 }
